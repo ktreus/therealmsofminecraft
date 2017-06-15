@@ -22,18 +22,11 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-/// A VERS√O SIGNIFICA A PORCENTAGEM DO PROJETO, BETA 1.0.0 … A "RELEASE", E A RELEASE … A CORRE«√O DOS POSSÕVEIS BUGS
+/// A VERS√ÉO SIGNIFICA A PORCENTAGEM DO PROJETO, BETA 1.0.0 √â A "RELEASE", E A RELEASE √â A CORRE√á√ÉO DOS POSS√çVEIS BUGS
 @Mod(modid = MinecraftRealms.MODID, version = "0.0.6 alpha", name = "The Realms of Minecraft")
 public class MinecraftRealms
 {
 	@SidedProxy(clientSide = "com.ktreus.minecraftrealms.proxy.ClientProxy", serverSide = "com.ktreus.minecraftrealms.proxy.CommonProxy")
-    //// 8====D
-	// PUBLIC STATIC DICK MYDICK;
-	// MYDICK = NEW DICK().SETSIZE(28CM).SETDICKNAME("ASTOLFO").SETTEXTURENAME("NIGGA");
-	// IF (STOLE == YES){
-	// MYDICK = IN_YOUR_ASS;}
-	// IF (YOU == ANON){
-	// ANON = BROTHER;}
 	
 	public static CommonProxy proxy;
 	public static final String MODID = "minecraftrealms";
@@ -43,17 +36,17 @@ public class MinecraftRealms
     @EventHandler
     public static void preinit(FMLPreInitializationEvent event)
     {
-    MRItemsRegister.mainRegistry();
-    MRBlocksRegister.mainRegistry();
-    MRMobsRegister.mainRegistry();
-    MRMaterialsRegister.mainRegistry();
-    MRGreatSwordsRegister.mainRegistry();
-    MRGunsRegister.mainRegistry();
-    MRMiscRegister.mainRegistry();
+    	MRItemsRegister.mainRegistry();
+    	MRBlocksRegister.mainRegistry();
+    	MRMobsRegister.mainRegistry();
+    	MRMaterialsRegister.mainRegistry();
+    	MRGreatSwordsRegister.mainRegistry();
+    	MRGunsRegister.mainRegistry();
+    	MRMiscRegister.mainRegistry();
 	MRUniquesRegister.mainRegistry();
 	MRArmorsRegister.mainRegistry();
 	MRToolsRegister.mainRegistry();
-    MRLootRegister.mainRegistry();
+    	MRLootRegister.mainRegistry();
 	MRStructuresRegister.mainRegistry();
     
     }
